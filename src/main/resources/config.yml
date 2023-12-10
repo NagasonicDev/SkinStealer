@@ -1,0 +1,16 @@
+# Welcome to SkinStealer
+
+# This decides what file type to export the skin as.
+# DEFAULT: .png
+image type: .png
+
+# This decides whether a player's skin should automatically download when they join.
+# DEFAULT: false
+save on join: false
+
+permissions:
+  # Permission to use the skin steal command
+  steal permission: skinstealer.steal
+
+  # Permission to reload the config
+  reload permission: skinstealer.reload
