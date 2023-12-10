@@ -3,3 +3,8 @@ version: '${version}'
 main: ca.nagasonic.skinstealer.SkinStealer
 api-version: '1.18'
 description: Ability to download and save a player's skin.
+commands:
+  skinstealer:
+    usage: /skinstealer <player>
+    aliases: [skinsteal, ssteal, saveskin, downloadskin]
+    description: "Save and download a player's skin."
